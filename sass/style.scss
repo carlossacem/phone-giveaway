@@ -1,0 +1,19 @@
+$body-bg: #FAFBFC;
+$link-color: #229AF1;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$new-spacers:
+(
+  6: ($spacer * 3.5),
+  7: ($spacer * 4),
+  8: ($spacer * 5),
+  9: ($spacer * 8),
+  10: ($spacer * 10)
+);
+$spacers: map-merge($new-spacers, $spacers);
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "global";
