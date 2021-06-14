@@ -81,6 +81,10 @@ body {
 
   }
 
+.card-general-taken{
+    filter: grayscale(1);
+    opacity: 0.4;
+  }
 
 .footer {
     font-weight: 700;
