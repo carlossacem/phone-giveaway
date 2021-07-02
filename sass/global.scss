@@ -1,6 +1,9 @@
 $primary: #438AF6;
 $success: #7AD762;
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -11,8 +14,13 @@ body {
 .card-general {
     background: #0000;
     border: 2px solid #A2DDFD;
-    box-sizing: border-box;
-    box-shadow: 4px 4px 0px #A2DDFD;
+    box-shadow: 4px 4px 0 #A2DDFD;
+    border-radius: 12px;
+}
+
+.card-success {
+    border: 2px solid #7ad762;
+    box-shadow: 4px 4px 0 #7ad762;
     border-radius: 12px;
 }
 
